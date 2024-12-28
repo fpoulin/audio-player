@@ -1,0 +1,15 @@
+{
+  "name": "audio-indexer-daemon",
+  "version": "1.0.0",
+  "description": "Audio file indexing daemon for the audio-indexer project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chokidar": "^3.5.3",
+    "path": "^0.12.7",
+    "form-data": "^4.0.0"
+  }
+}
